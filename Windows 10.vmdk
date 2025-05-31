@@ -1,0 +1,35 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=fffffffe
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Windows 10-s001.vmdk"
+RW 8323072 SPARSE "Windows 10-s002.vmdk"
+RW 8323072 SPARSE "Windows 10-s003.vmdk"
+RW 8323072 SPARSE "Windows 10-s004.vmdk"
+RW 8323072 SPARSE "Windows 10-s005.vmdk"
+RW 8323072 SPARSE "Windows 10-s006.vmdk"
+RW 8323072 SPARSE "Windows 10-s007.vmdk"
+RW 8323072 SPARSE "Windows 10-s008.vmdk"
+RW 8323072 SPARSE "Windows 10-s009.vmdk"
+RW 8323072 SPARSE "Windows 10-s010.vmdk"
+RW 8323072 SPARSE "Windows 10-s011.vmdk"
+RW 8323072 SPARSE "Windows 10-s012.vmdk"
+RW 8323072 SPARSE "Windows 10-s013.vmdk"
+RW 8323072 SPARSE "Windows 10-s014.vmdk"
+RW 8323072 SPARSE "Windows 10-s015.vmdk"
+RW 983040 SPARSE "Windows 10-s016.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "7832"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "80ad0d134ef3e82b592efa7dfffffffe"
+ddb.uuid = "60 00 C2 95 48 5a 56 cb-5a 9e 1c fd bf e0 a0 86"
+ddb.virtualHWVersion = "21"
